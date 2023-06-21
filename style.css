@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+  .bg{
+    background-color: #F4F0FD;
+    border-radius: 0px 0px 50% 0px;
+  }
 .Header-section {
     display: flex;
     height: 450px;
-    background-color: #F4F0FD;
-    border-radius: 0px 0px 50% 0px;
 }
 
 .animation {
@@ -19,8 +24,8 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    bottom: 200px;
-    left: 250px;
+    bottom: 150px;
+    left: 200px;
     border-radius: 50%;
     animation-name: header-animation-one;
     animation-duration: 5s;
@@ -29,8 +34,8 @@
 
 .cir-two {
     position: absolute;
-    bottom: 280px;
-    left: 200px;
+    bottom: 230px;
+    left: 150px;
     height: 100px;
     width: 100px;
     background-color: #d796db;
@@ -42,8 +47,8 @@
 
 .cir-three {
     position: absolute;
-    bottom: 200px;
-    left: 160px;
+    bottom: 150px;
+    left: 110px;
     height: 100px;
     width: 100px;
     background-color: rgb(165, 231, 231);
@@ -55,23 +60,23 @@
 
 @keyframes header-animation-one {
     0% {
-        background-color: #52BDFA;
+        background-color: #8054E7;
     }
 
     25% {
-        background-color: #f9a0ff;
+        background-color: #AA8DEF;
     }
 
     50% {
-        background-color: #76ff86;
+        background-color: #D5C6F7;
     }
 
     75% {
-        background-color: aqua;
+        background-color: #FFFFFF;
     }
 
     100% {
-        background-color: #52BDFA;
+        background-color: #8054E7;
     }
 }
 
@@ -92,6 +97,8 @@
 }
 
 .welcome-text {
+    margin-top: 50px;
+    margin-bottom: 40px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -111,14 +118,15 @@
 }
 
 .coming-soon {
-    height: 100px;
+    height: 150px;
     background-color: rgba(128, 84, 231, 0.13);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    padding-top: 20px;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 80px;
 }
@@ -134,7 +142,7 @@
 
 .description {
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .plan {
@@ -167,3 +175,51 @@
     margin-left: 30px;
     margin-top: 20px;
 }
+@media screen and (max-width: 990px) {
+    .animation{
+        display: none;
+    }
+    .welcome{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .brand-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .brand-logo img {
+        height: 120px;
+    }
+    .welcome-text{
+        line-height: 70px;
+        margin-left: 10px;
+    }
+    .Header-section{
+        height: 550px;
+        width: 100%;
+    }
+    .bg{
+        border-radius:0px 0px 20% 0px;
+    }
+    .grow{
+        margin-left: 10px;
+    }
+    .details{
+        margin-left: 10px;
+        width: 70%;
+    }
+    .coming-soon{
+        height: 100%;
+        text-align: center;
+    }
+    .coming-text{
+        line-height: 100px;
+    }
+    .description{
+        display: block;
+    }
+    .plan{
+        margin-top: 40px;
+        border-bottom: 1px solid gray;
+    }
+  }
