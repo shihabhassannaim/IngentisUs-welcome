@@ -192,7 +192,7 @@
     }
     .welcome-text{
         line-height: 70px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .Header-section{
         height: 550px;
@@ -202,10 +202,10 @@
         border-radius:0px 0px 20% 0px;
     }
     .grow{
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .details{
-        margin-left: 10px;
+        margin-left: 30px;
         width: 70%;
     }
     .coming-soon{
