@@ -1,0 +1,169 @@
+.Header-section {
+    display: flex;
+    height: 450px;
+    background-color: #F4F0FD;
+    border-radius: 0px 0px 50% 0px;
+}
+
+.animation {
+    width: 30%;
+}
+
+.welcome {
+    width: 70%;
+    margin-top: 30px;
+}
+
+.cir-one {
+    background-color: #4cbdff;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 200px;
+    left: 250px;
+    border-radius: 50%;
+    animation-name: header-animation-one;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.cir-two {
+    position: absolute;
+    bottom: 280px;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: #d796db;
+    border-radius: 50%;
+    animation-name: header-animation-one;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.cir-three {
+    position: absolute;
+    bottom: 200px;
+    left: 160px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(165, 231, 231);
+    border-radius: 50%;
+    animation-name: header-animation-one;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header-animation-one {
+    0% {
+        background-color: #52BDFA;
+    }
+
+    25% {
+        background-color: #f9a0ff;
+    }
+
+    50% {
+        background-color: #76ff86;
+    }
+
+    75% {
+        background-color: aqua;
+    }
+
+    100% {
+        background-color: #52BDFA;
+    }
+}
+
+.brand-logo {
+    margin-bottom: 30px;
+    margin-left: -80px
+}
+
+.brand-logo img {
+    height: 140px;
+}
+
+.grow {
+    font-family: 'Epilogue';
+    font-style: normal;
+    color: #9570eb;
+    font-size: 20px;
+}
+
+.welcome-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 32px;
+    color: #8054E7;
+}
+
+.details {
+    margin-top: 30px;
+    margin-right: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px
+}
+
+.coming-soon {
+    height: 100px;
+    background-color: rgba(128, 84, 231, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.coming-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 32px;
+    color: #5331A3;
+}
+
+.description {
+    display: flex;
+    margin-top: 50px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan h4 {
+    color: #ffffff;
+    background-color: #8054E7;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+}
+
+.plan p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
